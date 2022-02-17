@@ -4,7 +4,6 @@
 
 import os
 import streamlit as st
-from streamlit_ace import st_ace
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -19,7 +18,8 @@ import json
 import datetime
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
-from streamlit_pandas_profiling import st_profile_report
+
+
 import pandas_profiling
 import streamlit.components.v1 as components
 
